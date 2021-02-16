@@ -1,0 +1,66 @@
+<html>
+
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: url(t.jpg)no-repeat;
+            height: 100vh;
+            background-size: 100% 100%;
+            position: relative;
+
+        }
+
+        p {
+            position: absolute;
+            margin-left: 500px;
+            margin-top: 100px;
+            color: white;
+            text-transform: uppercase;
+            font-family: cursive;
+            font-weight: 600;
+            animation: text 5s infinite linear;
+            
+
+        }
+
+        @keyframes text {
+            0% {
+                font-size: 17px;
+            }
+
+            100% {
+                
+                font-size: 40px; margin-left: 600px;color:red;
+            }
+        }
+
+        .main img {
+            position: absolute;
+            margin-top: 350px;
+
+            animation: change 3s infinite linear;
+        }
+
+        @keyframes change {
+            0% {
+                margin-left: 0px;
+            }
+
+            100% {
+                margin-left: 1040px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <p>run run<br>cartoon</p>
+        <img src="marion.gif">
+    </div>
+</body></html>
